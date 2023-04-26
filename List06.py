@@ -5,5 +5,7 @@ def main(list1):
         list1 (list): parameter
     Returns:
         list: return answer
-    """
-    return
+    """ 
+    list1[0]=True
+    return list1 
+print(main([1, 0, 0, 0, 0] ))
