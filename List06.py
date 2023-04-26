@@ -5,7 +5,11 @@ def main(list1):
         list1 (list): parameter
     Returns:
         list: return answer
-    """ 
-    list1[0]=True
+    """  
+    n=0 
+    while n<len(list1):
+        if list1[n]==1:
+            list1[n]=True 
+        n=n+1
     return list1 
-print(main([1, 0, 0, 0, 0] ))
+print(main( [1, 0, 1, 1, 0]))
