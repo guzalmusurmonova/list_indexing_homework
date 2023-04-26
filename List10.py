@@ -5,5 +5,10 @@ def main(list_num):
         list_num (list): parameter
     Returns:
         int: return answer
-    """
-    return
+    """ 
+    if list_num[0]>list_num[-1]:
+        s=list_num[0]
+    if list_num[0]<list_num[-1]:
+        s=list_num[-1]
+    return s 
+print(main([5, 32, 1, 4, 3]))
